@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/Hero.vue'
+import HeroComponent from './components/HeroComponent.vue'
 </script>
 
 <template>
   <header>
+    <HeroComponent/>
   </header>
 </template>
 
